@@ -4,11 +4,11 @@ let arr = process.argv.slice(2);
 
 
 
-  for(let num of arr) {
-    setTimeout(
-      () => {
-    process.stdout.write('\x07');
+for (let num of arr) {
+  setTimeout(
+    () => {
+      process.stdout.write('\x07');
     // console.log("nfjfnjnfkj\n")
-  }, num * 1000)
+    }, num * 1000);
 }
   
